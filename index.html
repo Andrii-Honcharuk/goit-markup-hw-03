@@ -4,39 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="header-logo"
+    <header class="page-header">
+      <nav class="page-navigation">
+        <a class="header-logo link" href="./index.html"
           >Web<span class="header-logo-dark-part">Studio</span></a
         >
-        <ul>
-          <li><a class="header-link" href="./index.html">Studio</a></li>
-          <li><a class="header-link" href="">Portfolio</a></li>
-          <li><a class="header-link" href="">Contacts</a></li>
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="header-link link" href="./index.html">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="header-link link" href="">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="header-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address class="heder-adress">
-        <ul>
-          <li>
-            <a class="heder-adress-link" href="mailto:info@devstudio.com"
+        <ul class="contact-list list">
+          <li class="contact-list-item">
+            <a class="heder-adress-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="heder-adress-link" href="tel:+110001111111"
+          <li class="contact-list-item">
+            <a class="heder-adress-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -53,7 +59,7 @@
       </section>
       <section>
         <h2 class="visually-hidden">Our advantages</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3 class="title-advantages">Strategy</h3>
             <p class="text-advantages">
@@ -87,7 +93,7 @@
       <!-- Our team -->
       <section class="team-sections">
         <h2 class="title-section">Our Team</h2>
-        <ul>
+        <ul class="list">
           <li class="persons-card">
             <img
               src="./images/mark-guerero.jpg"
@@ -125,7 +131,7 @@
       <!-- Section Our Portfolio -->
       <section class="portfolio-section">
         <h2 class="title-section">Our Portfolio</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/banking-app.jpg"
@@ -190,7 +196,7 @@
       </section>
     </main>
     <footer class="footer-section">
-      <a href="./index.html" class="footer-logo"
+      <a class="footer-logo link" href="./index.html"
         >Web<span class="footer-logo-white-part">Studio</span></a
       >
       <p class="footer-text">
