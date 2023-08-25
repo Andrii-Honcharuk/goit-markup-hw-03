@@ -13,7 +13,7 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 1px solid #404bbf; */
+  border: 1px solid #404bbf;
 }
 
 h1,
@@ -63,32 +63,22 @@ body {
 }
 .page-header-container {
   display: flex;
-  align-items: center
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /*align-items: center */
   /* justify-content: space-between; */
 }
 .page-navigation {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .contact-list {
   display: flex;
   gap: 40px;
-
-}
-.address-container {
-  margin-left: auto;
-  
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .header-logo {
@@ -126,6 +116,7 @@ body {
 
 .heder-adress {
   font-style: normal;
+  margin-left: auto;
 }
 
 .heder-adress-link {
@@ -139,7 +130,6 @@ body {
 }
 
 /* HERO SECTION n1 */
-
 
 .hero-section {
   background-color: var(--title-main-color);
@@ -188,7 +178,6 @@ body {
 }
 /* END  HERO SECTION n1 */
 
-
 /*  BENEFITS SECTIONS ADVANTAGES --*/
 
 .title-advantages {
@@ -198,7 +187,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-
 }
 .text-advantages {
   /* color: var(--main-color-text); */
@@ -256,7 +244,7 @@ body {
   border-bottom-right-radius: 4px;
 }
 
-.person-job-container{
+.person-job-container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -270,7 +258,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.06em;
   margin-bottom: 8px;
-
 }
 .job-title {
   /* color: var(--main-color-text); */
@@ -279,13 +266,10 @@ body {
 }
 /*END <!-- Our team --> */
 
-
 /* portfolio */
 .portfolio-section {
   background-color: var(--white);
 }
-
-
 
 .title-portfolio-section {
   margin-bottom: 72px;
@@ -306,27 +290,22 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-
 }
 .type-apps {
   /* color: var(--main-color-text); */
   /* Body */
   line-height: 1.5; /* 150% */
-
 }
 
 .portfolio-list-title-container {
-  padding: 32px 16px 32px 16px;  
-
+  padding: 32px 16px 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 /* END APPS */
 
 /* FOOTER  */
 .footer-section {
   background: var(--title-main-color);
-}
-
-.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
