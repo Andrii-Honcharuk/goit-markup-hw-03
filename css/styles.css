@@ -129,6 +129,8 @@ body {
 .heder-adress-link {
   color: var(--main-color-text);
   line-height: 1.5;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .heder-adress-link:hover,
