@@ -59,11 +59,11 @@ body {
   letter-spacing: 0.02em;
 }
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
+  align-items: center
   /* justify-content: space-between; */
 }
 .page-navigation {
@@ -71,16 +71,19 @@ body {
   align-items: center;
 }
 .menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   column-gap: 40px;
-  margin-left: 76px;
 }
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
+
 }
 .address-container {
   margin-left: auto;
+  
 }
 
 .section {
@@ -96,6 +99,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-dark-part {
@@ -133,17 +137,23 @@ body {
 .heder-adress-link:focus {
   color: var(--active-elements-color);
 }
+
+/* HERO SECTION n1 */
+
+
 .hero-section {
   background-color: var(--title-main-color);
   text-align: center;
   line-height: 1.5;
-}
-/* Header 1 */
-
-.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+/* Header 1 */
+
+/* .hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+} */
 
 .title-hero-section {
   color: var(--white);
@@ -164,14 +174,20 @@ body {
   border: none;
   background: var(--accent-color);
   line-height: 1.5;
+  display: block;
+  min-width: 169px;
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
   margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button:focus,
 .hero-button:hover {
   background-color: var(--active-elements-color);
 }
+/* END  HERO SECTION n1 */
+
 
 /*  BENEFITS SECTIONS ADVANTAGES --*/
 
@@ -181,6 +197,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+
 }
 .text-advantages {
   /* color: var(--main-color-text); */
@@ -188,7 +206,7 @@ body {
 }
 .advantages-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
@@ -224,12 +242,12 @@ body {
   background-color: #f4f4fd;
 }
 .title-team-section {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .persons-card {
@@ -238,49 +256,45 @@ body {
   border-bottom-right-radius: 4px;
 }
 
-.persons-team {
+.person-job-container{
   padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.persons-team {
   color: var(--title-main-color);
   text-align: center;
-
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.06em;
+  margin-bottom: 8px;
+
 }
 .job-title {
   /* color: var(--main-color-text); */
   text-align: center;
   line-height: 1.5;
-  padding-top: 8px;
-  padding-bottom: 32px;
 }
 /*END <!-- Our team --> */
+
 
 /* portfolio */
 .portfolio-section {
   background-color: var(--white);
 }
 
-.title-section {
-  color: var(--title-main-color);
-  text-align: center;
 
-  /* Header 2 */
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
+
 .title-portfolio-section {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 
@@ -291,14 +305,19 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+
 }
 .type-apps {
   /* color: var(--main-color-text); */
   /* Body */
   line-height: 1.5; /* 150% */
-  padding-bottom: 32px;
+
+}
+
+.portfolio-list-title-container {
+  padding: 32px 16px 32px 16px;  
+
 }
 /* END APPS */
 
@@ -308,7 +327,7 @@ body {
 }
 
 .footer-container {
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -331,13 +350,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
   color: #f4f4fd;
   /* Body */
   line-height: 1.5;
-  padding-top: 17px;
   max-width: 264px;
 }
-
