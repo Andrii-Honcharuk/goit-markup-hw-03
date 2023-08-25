@@ -7,6 +7,37 @@
   --active-elements-color: #404bbf;
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid #404bbf; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -26,6 +57,35 @@ body {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.02em;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  column-gap: 40px;
+  margin-left: 76px;
+}
+.contact-list {
+  display: flex;
+  column-gap: 40px;
+}
+.address-container {
+  margin-left: auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .header-logo {
@@ -79,6 +139,12 @@ body {
   line-height: 1.5;
 }
 /* Header 1 */
+
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .title-hero-section {
   color: var(--white);
   font-family: Roboto, sans-serif;
@@ -86,7 +152,11 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .hero-button {
   color: var(--white);
   font-weight: 500;
@@ -94,11 +164,16 @@ body {
   border: none;
   background: var(--accent-color);
   line-height: 1.5;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  margin-top: 48px;
 }
 .hero-button:focus,
 .hero-button:hover {
   background-color: var(--active-elements-color);
 }
+
+/*  BENEFITS SECTIONS ADVANTAGES --*/
 
 .title-advantages {
   color: var(--title-main-color);
@@ -111,14 +186,17 @@ body {
   /* color: var(--main-color-text); */
   line-height: 1.5;
 }
-.team-sections {
-  background-color: #f4f4fd;
+.advantages-list {
+  display: flex;
+  column-gap: 24px;
 }
+.advantages-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .title-section {
   color: var(--title-main-color);
   text-align: center;
-
-  /* Header 2 */
   font-family: Roboto, sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -126,12 +204,42 @@ body {
   letter-spacing: 0.06em;
   text-transform: capitalize;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*  END BENEFITS SECTIONS ADVANTAGES --*/
+
+/* <!-- Our team --> */
+
+.team-sections {
+  background-color: #f4f4fd;
+}
+.title-team-section {
+  padding-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  column-gap: 24px;
+}
 
 .persons-card {
   background-color: var(--white);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .persons-team {
+  padding-top: 32px;
   color: var(--title-main-color);
   text-align: center;
 
@@ -145,11 +253,16 @@ body {
   /* color: var(--main-color-text); */
   text-align: center;
   line-height: 1.5;
+  padding-top: 8px;
+  padding-bottom: 32px;
 }
+/*END <!-- Our team --> */
+
 /* portfolio */
 .portfolio-section {
   background-color: var(--white);
 }
+
 .title-section {
   color: var(--title-main-color);
   text-align: center;
@@ -161,22 +274,42 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.title-portfolio-section {
+  padding-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
 .title-apps {
   color: var(--title-main-color);
-
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .type-apps {
   /* color: var(--main-color-text); */
   /* Body */
   line-height: 1.5; /* 150% */
+  padding-bottom: 32px;
 }
+/* END APPS */
+
+/* FOOTER  */
 .footer-section {
   background: var(--title-main-color);
+}
+
+.footer-container {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-white-part {
@@ -204,4 +337,7 @@ body {
   color: #f4f4fd;
   /* Body */
   line-height: 1.5;
+  padding-top: 17px;
+  max-width: 264px;
 }
+
