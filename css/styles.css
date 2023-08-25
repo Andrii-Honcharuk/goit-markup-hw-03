@@ -7,13 +7,6 @@
   --active-elements-color: #404bbf;
 }
 
-.container {
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px 0 15px;
-}
-
 h1,
 h2,
 h3,
@@ -43,6 +36,13 @@ img {
 .list {
   list-style-type: none;
 }
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 button {
   cursor: pointer;
@@ -59,7 +59,10 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .page-header-container {
   display: flex;
   padding-top: 24px;
