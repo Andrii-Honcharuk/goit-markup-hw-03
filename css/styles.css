@@ -58,24 +58,24 @@ body {
 }
 
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9f.c;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .page-header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .page-navigation {
   display: flex;
   align-items: center;
 }
-.menu-heder-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+/* .menu-heder-container {
+  /* padding-top: 24px;
+  padding-bottom: 24px; 
+} */
 
 .menu {
   display: flex;
@@ -84,6 +84,8 @@ body {
 .contact-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
